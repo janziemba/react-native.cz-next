@@ -19,7 +19,11 @@ const categories = [
 
 const Home: NextPage = () => (
     <>
-        <Gallery>
+        <Gallery
+            options={{
+                bgOpacity: 0.8,
+            }}
+        >
             <Head>
                 <title>Jan Ziemba - React Native developer</title>
                 <meta content="Jan Ziemba - React Native developer" name="description" />
@@ -48,7 +52,7 @@ const Home: NextPage = () => (
                             <div className="mt-3">
                                 <a
                                     className="d-inline-block mx-3"
-                                    href="http://github.com/janziemba"
+                                    href="https://github.com/janziemba"
                                     rel="noreferrer"
                                     target="_blank"
                                 >
