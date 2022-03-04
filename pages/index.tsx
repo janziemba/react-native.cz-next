@@ -76,15 +76,15 @@ const Home: NextPage = () => (
                                 {categories.map((category) =>
                                     Array.from({ length: category.numberOfImages }, (_, i) => {
                                         const imageNumber = (i + 1).toString().padStart(2, '0');
-                                        const original = `/apps/${category.folder}/${imageNumber}.png`;
+                                        const path = `/apps/${category.folder}/${imageNumber}`;
 
                                         return (
                                             <div className="col-6 col-md-2 mb-2">
                                                 <Item
-                                                    height="1456"
-                                                    original={original}
-                                                    thumbnail={original}
-                                                    width="722"
+                                                    height="1780"
+                                                    original={`${path}.png`}
+                                                    thumbnail={`${path}_thumb.png`}
+                                                    width="884"
                                                 >
                                                     {({ open, ref }) => (
                                                         <img
@@ -94,7 +94,7 @@ const Home: NextPage = () => (
                                                             className="img-fluid rounded d-block mx-auto p-1"
                                                             height="319"
                                                             onClick={open}
-                                                            src={original}
+                                                            src={`${path}_thumb.png`}
                                                             width="162"
                                                         />
                                                     )}
