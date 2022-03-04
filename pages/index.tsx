@@ -10,11 +10,31 @@ import { Gallery, Item } from 'react-photoswipe-gallery';
 import styles from '../styles/Home.module.css';
 
 const categories = [
-    { folder: 'reservio-marketplace', name: 'Reservio Marketplace', numberOfImages: 10 },
-    { folder: 'reservio-business', name: 'Reservio Business', numberOfImages: 6 },
-    { folder: 'venkovka', name: 'Venkovka', numberOfImages: 7 },
-    { folder: 'conversation-topics', name: 'Conversation topics', numberOfImages: 2 },
-    { folder: 'fakescape-cyber-game', name: 'Fakescape Kyber hra', numberOfImages: 3 },
+    {
+        folder: 'reservio-marketplace',
+        numberOfImages: 10,
+        title: '<b>Reservio Marketplace</b> - my full-time job',
+    },
+    {
+        folder: 'reservio-business',
+        numberOfImages: 6,
+        title: '<b>Reservio Business</b> - my full-time job',
+    },
+    {
+        folder: 'venkovka',
+        numberOfImages: 7,
+        title: '<b>Venkovka</b> – outdoor escape game I work on in my free time',
+    },
+    {
+        folder: 'conversation-topics',
+        numberOfImages: 2,
+        title: '<b>Conversation topics</b> - a simple app I work on in my free time',
+    },
+    {
+        folder: 'fakescape-cyber-game',
+        numberOfImages: 3,
+        title: '<b>Fakescape Cyber game</b> – a simulation of a social site, it will be used for education about cybersecurity',
+    },
 ];
 
 const Home: NextPage = () => (
@@ -88,6 +108,7 @@ const Home: NextPage = () => (
                                                     height="1780"
                                                     original={`${path}.png`}
                                                     thumbnail={`${path}_thumb.png`}
+                                                    title={category.title}
                                                     width="884"
                                                 >
                                                     {({ open, ref }) => (
