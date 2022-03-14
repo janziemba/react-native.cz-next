@@ -51,7 +51,7 @@ const Home: NextPage = () => (
                     content="width=device-width, initial-scale=1, shrink-to-fit=no"
                     name="viewport"
                 />
-                <meta content="https://react-native.cz/apps/preview.png" property="og:image" />
+                <meta content="https://react-native.cz/preview.png" property="og:image" />
             </Head>
             <div className="h-100">
                 <div className="container-fluid h-100">
