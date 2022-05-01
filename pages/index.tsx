@@ -62,7 +62,7 @@ const Home: NextPage = () => (
                                 alt="Me"
                                 className="img-fluid d-block mx-auto"
                                 height="298"
-                                src="/me.jpg"
+                                src="/me.png"
                                 width="250"
                             />
                             <h1 className="mt-3">Jan Ziemba</h1>
