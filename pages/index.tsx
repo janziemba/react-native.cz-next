@@ -52,6 +52,7 @@ const Home: NextPage = () => (
                     name="viewport"
                 />
                 <meta content="https://react-native.cz/preview.png" property="og:image" />
+                <link rel="icon" href="/favicon.png"></link>
             </Head>
             <div className="h-100">
                 <div className="container-fluid h-100">
