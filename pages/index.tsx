@@ -59,13 +59,12 @@ const Home: NextPage = () => (
                         <div className="col-md-3 p-3 mb-5 mb-md-0 text-center">
                             <Image
                                 alt="Me"
-                                className="img-fluid d-block mx-auto mb-2"
-                                height="250"
-                                src="/memoji.png"
-                                title="Yes, that's me"
+                                className="img-fluid d-block mx-auto"
+                                height="298"
+                                src="/me.jpg"
                                 width="250"
                             />
-                            <h1>Jan Ziemba</h1>
+                            <h1 className="mt-3">Jan Ziemba</h1>
                             <h5>React Native developer</h5>
                             <h6>Brno, Czechia</h6>
                             <a href="mailto:ziemba.jan@icloud.com">ziemba.jan@icloud.com</a>
