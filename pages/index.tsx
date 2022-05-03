@@ -53,6 +53,7 @@ const Home: NextPage = () => (
                 />
                 <meta content="https://react-native.cz/preview.png" property="og:image" />
                 <link rel="icon" href="/favicon.png"></link>
+                <script defer data-domain="react-native.cz" src="https://plausible.io/js/plausible.js"></script>
             </Head>
             <div className="h-100">
                 <div className="container-fluid h-100">
