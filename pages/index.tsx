@@ -13,17 +13,17 @@ const categories = [
     {
         folder: 'reservio-marketplace',
         numberOfImages: 10,
-        title: '<b>Reservio Marketplace</b> - my full-time job',
+        title: '<b>Reservio Marketplace</b> - my previous full-time job',
     },
     {
         folder: 'reservio-business',
         numberOfImages: 6,
-        title: '<b>Reservio Business</b> - my full-time job',
+        title: '<b>Reservio Business</b> - my previous full-time job',
     },
     {
         folder: 'venkovka',
         numberOfImages: 7,
-        title: '<b>Venkovka</b> – outdoor escape game I work on in my free time',
+        title: '<b>Venkovka</b> – outdoor escape game I worked on in my free time',
     },
     {
         folder: 'conversation-topics',
